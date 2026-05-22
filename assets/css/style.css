@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: palegreen;
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
@@ -25,14 +26,48 @@ a { color:blue; text-decoration: none;}
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    background-color: #024b1a;
+    padding:15px;
+    border-bottom: solid 1px #cdcdcd;
 }
 .anchors {
-    border-left: solid 1px #cdcdcd;
+    border-left: solid 5px #cdcdcd;
     padding-left: 15px;
 }
 .sidebar {
-    border-right: solid 1px #cdcdcd;
+    border-right: solid 5px #cdcdcd;
 }
 figure {
     text-align: center;
 }
+.citacao {
+    text-align: center;
+    color: #f9f9fb;
+}
+.logo2 {
+    text-align: left;
+}
+.tabela {
+    align-self: center;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+    border-spacing: 0;
+    font-size: 16px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(21, 181, 255);
+  color: white;
+}
+td, th {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 5px;
+  margin: 0;
+  line-height: 1;
+}
+tr:nth-child(even){background-color: #ffffff;}
+tr:hover {background-color: #ddd;}
